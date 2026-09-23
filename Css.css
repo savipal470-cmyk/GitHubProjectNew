@@ -1,0 +1,28 @@
+﻿.form-control {
+    padding:8px;
+    width:100%;
+}
+.container {
+    width: 500px;
+    margin: 40px auto;
+    font-family: Arial;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 15px;
+    font-weight: bold;
+}

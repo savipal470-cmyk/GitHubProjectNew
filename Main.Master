@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"
+    CodeBehind="Main.master.cs"
+    Inherits="GitHubTest.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Beauty Parlour</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+
+<form id="form1" runat="server">
+
+<%--    <div>
+        <h2>Beauty Parlour Management System</h2>
+    </div>--%>
+
+    <div>
+
+        <asp:HyperLink ID="lnkHome"
+            runat="server"
+            NavigateUrl="~/Admin.aspx">
+            Home
+        </asp:HyperLink>
+
+        &nbsp; | &nbsp;
+
+        <asp:HyperLink ID="lnkCreateUser"
+            runat="server"
+            NavigateUrl="~/CreateUser.aspx">
+            Create User
+        </asp:HyperLink>
+
+        &nbsp; | &nbsp;
+
+        <asp:HyperLink ID="lnkServices"
+            runat="server"
+            NavigateUrl="~/ManageServices.aspx">
+            Manage Services
+        </asp:HyperLink>
+
+        &nbsp; | &nbsp;
+
+          <asp:HyperLink ID="lnkViewUser"
+            runat="server"
+            NavigateUrl="~/ViewUsers.aspx">
+            View Users
+        </asp:HyperLink>
+
+        &nbsp; | &nbsp;
+        <asp:HyperLink ID="lnkLogout"
+            runat="server"
+            NavigateUrl="~/Login.aspx">
+            Logout
+        </asp:HyperLink>
+
+    </div>
+
+    <hr />
+
+    <!-- Page Content -->
+    <div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1"
+            runat="server">
+
+        </asp:ContentPlaceHolder>
+
+    </div>
+
+</form>
+
+</body>
+</html>
