@@ -58,7 +58,6 @@
             NavigateUrl="~/Login.aspx">
             Logout
         </asp:HyperLink>
-
     </div>
 
     <hr />
