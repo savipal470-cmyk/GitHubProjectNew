@@ -37,7 +37,9 @@ namespace GitHubTest
                         if(reader.Read())
                         {
                             int UserID=Convert.ToInt32(reader["UserID"]);
+                            Session["UserId"] = UserID;
                             string UserName1 = reader["UserName"].ToString();
+                            Session["UserName"] = UserName1;
                             int RoleID = Convert.ToInt32(reader["RoleID"]);
 
                             if(RoleID==1)

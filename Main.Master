@@ -52,6 +52,32 @@
             View Users
         </asp:HyperLink>
 
+         &nbsp; | &nbsp;
+
+          <asp:HyperLink ID="HyperLink1"
+            runat="server"
+            NavigateUrl="~/Maker.aspx">
+            Maker
+        </asp:HyperLink>
+
+          &nbsp; | &nbsp;
+
+          <asp:HyperLink ID="HyperLink3"
+            runat="server"
+            NavigateUrl="~/Checker.aspx">
+            Checker
+        </asp:HyperLink>
+
+
+         &nbsp; | &nbsp;
+
+          <asp:HyperLink ID="HyperLink2"
+            runat="server"
+            NavigateUrl="~/ViewUsers.aspx">
+            View Users
+        </asp:HyperLink>
+
+
         &nbsp; | &nbsp;
         <asp:HyperLink ID="lnkLogout"
             runat="server"
